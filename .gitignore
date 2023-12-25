@@ -1,5 +1,2 @@
 /target/
-/.idea/.gitignore
-/.idea/modules.xml
-/.idea/the-rust-programming-language.iml
-/.idea/vcs.xml
+/.idea/
