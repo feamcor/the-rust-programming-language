@@ -1,6 +1,6 @@
-use std::io;
 use rand::Rng;
 use std::cmp::Ordering;
+use std::io;
 
 fn main() {
     println!("Guess the number!");
@@ -16,7 +16,7 @@ fn main() {
             Ok(number) => number,
             Err(_) => {
                 eprintln!("Please, type a number!");
-                continue
+                continue;
             }
         };
         println!("You guessed: {guess}");
@@ -26,7 +26,7 @@ fn main() {
             Ordering::Equal => {
                 println!("You win!");
                 break;
-            },
+            }
         }
-    }
+    };
 }
